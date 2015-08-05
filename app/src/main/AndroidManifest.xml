@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emar.coclevels" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.emar.coclevels.MainActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.dekorasyon"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DEKORASYON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.savunma"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.SAVUNMA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.ordu"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.ORDU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.kaynak"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KAYNAK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.cannon"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.CANNON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.OkcuKule"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.OKCUKULE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name="com.emar.coclevels.HavanTopu"
+        android:screenOrientation="landscape"
+        >
+        <intent-filter>
+            <action android:name="com.emar.coclevels.HAVANTOPU" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name="com.emar.coclevels.Duvar"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DUVAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.HavaSavunmasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.HAVASAVUNMASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Bomba"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BOMBA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.BuyucuKulesi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BUYUCUKULESI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.HavaBombasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.HAVABOMBASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.DevBomba"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DEVBOMBA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.GudumluHavaBombasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.GUDUMLUHAVABOMBASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name="com.emar.coclevels.Tesla"
+        android:screenOrientation="landscape"
+        >
+        <intent-filter>
+            <action android:name="com.emar.coclevels.TESLA" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name="com.emar.coclevels.Mezarci"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.MEZARCI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.XBow"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.XBOW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.CehennemKulesi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.CEHENNEMKULESI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Kisla"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KISLA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Labrotuvar"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.LABROTUVAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.BuyuFabrikasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BUYUFABRIKASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.BarbarKral"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BARBARKRAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.KaraKisla"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KARAKISLA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.OkcuKralice"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.OKCUKRALICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.IksirToplayici"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.IKSIRTOPLAYICI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.IksirDeposu"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.IKSIRDEPOSU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.AltinMadeni"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.ALTINMADENI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.AltinDeposu"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.ALTINDEPOSU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.KaraIksirSondasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KARAIKSIRSONDASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.KaraIksirDeposu"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KARAIKSIRDEPOSU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Barbar"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BARBAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        <activity
+        android:name="com.emar.coclevels.Okcu"
+        android:screenOrientation="landscape"
+        >
+        <intent-filter>
+            <action android:name="com.emar.coclevels.OKCU" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name="com.emar.coclevels.Dev"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DEV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Goblin"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.GOBLIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.DuvarYikici"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DUVARYIKICI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Balon"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BALON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Buyucu"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.BUYUCU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Melek"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.MELEK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Ejder"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.EJDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Pekka"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.PEKKA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Asker"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.ASKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity
+        android:name="com.emar.coclevels.Dalkavuk"
+        android:screenOrientation="landscape"
+        >
+        <intent-filter>
+            <action android:name="com.emar.coclevels.DALKAVUK" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name="com.emar.coclevels.DonenKadin"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DONENKADIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.DomuzBinicisi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.DOMUZBINICISI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.Golem"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.GOLEM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.MezarciAnasi"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.MEZARCIANASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.HavayaSaldiran"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.HAVAYASALDIRAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emar.coclevels.kamp"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.emar.coclevels.KAMP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

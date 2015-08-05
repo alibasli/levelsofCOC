@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C0C17"
+        >
+        <RelativeLayout
+            android:id="@+id/acionbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#AAAAAA">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/backbutton"
+                android:background="@drawable/backbutton"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="arial"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_height="30dp"
+                android:text="Barracks"
+                android:textColor="#000"
+
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:layout_below="@+id/acionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#1C0C17"
+                >
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/kisla1"
+                    android:background="@drawable/kisla1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla2"
+                    android:id="@+id/kisla2"
+                    android:layout_alignTop="@+id/kisla1"
+                    android:layout_toRightOf="@+id/kisla1"
+                    android:layout_toEndOf="@+id/kisla1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla3"
+                    android:id="@+id/kisla3"
+                    android:layout_alignTop="@+id/kisla2"
+                    android:layout_toRightOf="@+id/kisla2"
+                    android:layout_toEndOf="@+id/kisla2"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla4"
+                    android:id="@+id/kisla4"
+                    android:layout_alignTop="@+id/kisla3"
+                    android:layout_toRightOf="@+id/kisla3"
+                    android:layout_toEndOf="@+id/kisla3"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla5"
+                    android:id="@+id/kisla5"
+                    android:layout_alignTop="@+id/kisla4"
+                    android:layout_toRightOf="@+id/kisla4"
+                    android:layout_toEndOf="@+id/kisla4"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla6"
+                    android:id="@+id/kisla6"
+                    android:layout_alignTop="@+id/kisla5"
+                    android:layout_toRightOf="@+id/kisla5"
+                    android:layout_toEndOf="@+id/kisla5"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla7"
+                    android:id="@+id/kisla7"
+                    android:layout_alignTop="@+id/kisla6"
+                    android:layout_toRightOf="@+id/kisla6"
+                    android:layout_toEndOf="@+id/kisla6"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla8"
+                    android:id="@+id/kisla8"
+                    android:layout_alignTop="@+id/kisla7"
+                    android:layout_toRightOf="@+id/kisla7"
+                    android:layout_toEndOf="@+id/kisla7"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla9"
+                    android:id="@+id/kisla9"
+                    android:layout_alignTop="@+id/kisla8"
+                    android:layout_toRightOf="@+id/kisla8"
+                    android:layout_toEndOf="@+id/kisla8"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kisla10"
+                    android:id="@+id/kisla10"
+                    android:layout_alignTop="@+id/kisla9"
+                    android:layout_toRightOf="@+id/kisla9"
+                    android:layout_toEndOf="@+id/kisla9"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="200dp"
+                    android:layout_alignTop="@+id/kisla10"
+                    android:layout_toRightOf="@+id/kisla10"
+                    android:layout_toEndOf="@+id/kisla10"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad"
+                    android:layout_alignParentBottom="true"
+                    />
+
+    </RelativeLayout>
+</RelativeLayout>

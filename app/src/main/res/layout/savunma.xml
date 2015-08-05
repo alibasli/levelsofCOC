@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C0C17"
+        >
+
+        <RelativeLayout
+            android:id="@+id/acionbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#AAAAAA">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/backbutton"
+                android:background="@drawable/backbutton"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="arial"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_height="30dp"
+                android:text="Defenses"
+                android:textColor="#000"
+
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_below="@+id/acionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#1C0C17"
+                >
+
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/top"
+                    android:background="@drawable/top"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/okcukulesi"
+                    android:id="@+id/okcukulesi"
+                    android:layout_alignTop="@+id/top"
+                    android:layout_toRightOf="@+id/top"
+                    android:layout_toEndOf="@+id/top"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/havantopu"
+                    android:id="@+id/havantopu"
+                    android:layout_alignTop="@+id/okcukulesi"
+                    android:layout_toRightOf="@+id/okcukulesi"
+                    android:layout_toEndOf="@+id/okcukulesi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/bomba"
+                    android:id="@+id/bomba"
+                    android:layout_alignTop="@+id/havantopu"
+                    android:layout_toRightOf="@+id/havantopu"
+                    android:layout_toEndOf="@+id/havantopu"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/havasavunmasi"
+                    android:id="@+id/havasavunmasi"
+                    android:layout_alignTop="@+id/bomba"
+                    android:layout_toRightOf="@+id/bomba"
+                    android:layout_toEndOf="@+id/bomba"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/yay"
+                    android:id="@+id/yay"
+                    android:layout_alignTop="@+id/havasavunmasi"
+                    android:layout_toRightOf="@+id/havasavunmasi"
+                    android:layout_toEndOf="@+id/havasavunmasi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/duvar"
+                    android:id="@+id/duvar"
+                    android:layout_alignTop="@+id/yay"
+                    android:layout_toRightOf="@+id/yay"
+                    android:layout_toEndOf="@+id/yay"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/buyucukulesi"
+                    android:id="@+id/buyucukulesi"
+                    android:layout_alignTop="@+id/duvar"
+                    android:layout_toRightOf="@+id/duvar"
+                    android:layout_toEndOf="@+id/duvar"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/havabombasi"
+                    android:id="@+id/havabombasi"
+                    android:layout_alignTop="@+id/buyucukulesi"
+                    android:layout_toRightOf="@+id/buyucukulesi"
+                    android:layout_toEndOf="@+id/buyucukulesi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/devbomba"
+                    android:id="@+id/devbomba"
+                    android:layout_alignTop="@+id/havabombasi"
+                    android:layout_toRightOf="@+id/havabombasi"
+                    android:layout_toEndOf="@+id/havabombasi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/gudumluhavabombasi"
+                    android:id="@+id/gudumluhavabombasi"
+                    android:layout_alignTop="@+id/devbomba"
+                    android:layout_toRightOf="@+id/devbomba"
+                    android:layout_toEndOf="@+id/devbomba"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/tesla"
+                    android:id="@+id/tesla"
+                    android:layout_alignTop="@+id/gudumluhavabombasi"
+                    android:layout_toRightOf="@+id/gudumluhavabombasi"
+                    android:layout_toEndOf="@+id/gudumluhavabombasi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/iskelettuzak"
+                    android:id="@+id/iskelettuzak"
+                    android:layout_alignTop="@+id/tesla"
+                    android:layout_toRightOf="@+id/tesla"
+                    android:layout_toEndOf="@+id/tesla"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/xbow"
+                    android:id="@+id/xbow"
+                    android:layout_alignTop="@+id/iskelettuzak"
+                    android:layout_toRightOf="@+id/iskelettuzak"
+                    android:layout_toEndOf="@+id/iskelettuzak"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cehennemkulesi"
+                    android:id="@+id/cehennemkulesi"
+                    android:layout_alignTop="@+id/xbow"
+                    android:layout_toRightOf="@+id/xbow"
+                    android:layout_toEndOf="@+id/xbow"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="160dp"
+                    android:layout_alignTop="@+id/cehennemkulesi"
+                    android:layout_toRightOf="@+id/cehennemkulesi"
+                    android:layout_toEndOf="@+id/cehennemkulesi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+            </RelativeLayout>
+        </HorizontalScrollView>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad"
+                    android:layout_alignParentBottom="true"
+                    />
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C0C17"
+        >
+        <RelativeLayout
+            android:id="@+id/acionbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#AAAAAA">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/backbutton"
+                android:background="@drawable/backbutton"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="arial"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_height="30dp"
+                android:text="Archer Tower"
+                android:textColor="#000"
+
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:layout_below="@+id/acionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#1C0C17"
+                >
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/okcu1"
+                    android:background="@drawable/okcu1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu2"
+                    android:id="@+id/okcu2"
+                    android:layout_alignTop="@+id/okcu1"
+                    android:layout_toRightOf="@+id/okcu1"
+                    android:layout_toEndOf="@+id/okcu1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu3"
+                    android:id="@+id/okcu3"
+                    android:layout_alignTop="@+id/okcu2"
+                    android:layout_toRightOf="@+id/okcu2"
+                    android:layout_toEndOf="@+id/okcu2"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu4"
+                    android:id="@+id/okcu4"
+                    android:layout_alignTop="@+id/okcu3"
+                    android:layout_toRightOf="@+id/okcu3"
+                    android:layout_toEndOf="@+id/okcu3"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu5"
+                    android:id="@+id/okcu5"
+                    android:layout_alignTop="@+id/okcu4"
+                    android:layout_toRightOf="@+id/okcu4"
+                    android:layout_toEndOf="@+id/okcu4"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu6"
+                    android:id="@+id/okcu6"
+                    android:layout_alignTop="@+id/okcu5"
+                    android:layout_toRightOf="@+id/okcu5"
+                    android:layout_toEndOf="@+id/okcu5"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu7"
+                    android:id="@+id/okcu7"
+                    android:layout_alignTop="@+id/okcu6"
+                    android:layout_toRightOf="@+id/okcu6"
+                    android:layout_toEndOf="@+id/okcu6"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu8"
+                    android:id="@+id/okcu8"
+                    android:layout_alignTop="@+id/okcu7"
+                    android:layout_toRightOf="@+id/okcu7"
+                    android:layout_toEndOf="@+id/okcu7"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu9"
+                    android:id="@+id/okcu9"
+                    android:layout_alignTop="@+id/okcu8"
+                    android:layout_toRightOf="@+id/okcu8"
+                    android:layout_toEndOf="@+id/okcu8"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu10"
+                    android:id="@+id/okcu10"
+                    android:layout_alignTop="@+id/okcu9"
+                    android:layout_toRightOf="@+id/okcu9"
+                    android:layout_toEndOf="@+id/okcu9"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu11"
+                    android:id="@+id/okcu11"
+                    android:layout_alignTop="@+id/okcu10"
+                    android:layout_toRightOf="@+id/okcu10"
+                    android:layout_toEndOf="@+id/okcu10"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu12"
+                    android:id="@+id/okcu12"
+                    android:layout_alignTop="@+id/okcu11"
+                    android:layout_toRightOf="@+id/okcu11"
+                    android:layout_toEndOf="@+id/okcu11"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/okcu13"
+                    android:id="@+id/okcu13"
+                    android:layout_alignTop="@+id/okcu12"
+                    android:layout_toRightOf="@+id/okcu12"
+                    android:layout_toEndOf="@+id/okcu12"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="200dp"
+                    android:layout_alignTop="@+id/okcu13"
+                    android:layout_toRightOf="@+id/okcu13"
+                    android:layout_toEndOf="@+id/okcu6"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad"
+                    android:layout_alignParentBottom="true"
+                    />
+
+    </RelativeLayout>
+</RelativeLayout>

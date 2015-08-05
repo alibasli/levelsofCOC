@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C0C17"
+        >
+
+        <RelativeLayout
+            android:id="@+id/acionbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#AAAAAA">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/backbutton"
+                android:background="@drawable/backbutton"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="arial"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_height="30dp"
+                android:text="Resources"
+                android:textColor="#000"
+
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:layout_below="@+id/acionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#1C0C17"
+                >
+
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/iksirmadeni"
+                    android:background="@drawable/iksirmadeni"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/iksirdeposu"
+                    android:id="@+id/iksirdeposu"
+                    android:layout_alignTop="@+id/iksirmadeni"
+                    android:layout_toRightOf="@+id/iksirmadeni"
+                    android:layout_toEndOf="@+id/iksirmadeni"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/altinmadeni"
+                    android:id="@+id/altinmadeni"
+                    android:layout_alignTop="@+id/iksirdeposu"
+                    android:layout_toRightOf="@+id/iksirdeposu"
+                    android:layout_toEndOf="@+id/iksirdeposu"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/altindeposu"
+                    android:id="@+id/altindeposu"
+                    android:layout_alignTop="@+id/altinmadeni"
+                    android:layout_toRightOf="@+id/altinmadeni"
+                    android:layout_toEndOf="@+id/altinmadeni"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/isci"
+                    android:id="@+id/isci"
+                    android:layout_alignTop="@+id/altindeposu"
+                    android:layout_toRightOf="@+id/altindeposu"
+                    android:layout_toEndOf="@+id/altindeposu"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/karaiksirsondasi"
+                    android:id="@+id/karaiksirsondasi"
+                    android:layout_alignTop="@+id/isci"
+                    android:layout_toRightOf="@+id/isci"
+                    android:layout_toEndOf="@+id/isci"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/karaiksir"
+                    android:id="@+id/karaiksir"
+                    android:layout_alignTop="@+id/karaiksirsondasi"
+                    android:layout_toRightOf="@+id/karaiksirsondasi"
+                    android:layout_toEndOf="@+id/karaiksirsondasi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="160dp"
+                    android:layout_alignTop="@+id/karaiksir"
+                    android:layout_toRightOf="@+id/karaiksir"
+                    android:layout_toEndOf="@+id/karaiksir"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+            </RelativeLayout>
+        </HorizontalScrollView>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad"
+                    android:layout_alignParentBottom="true"
+                    />
+
+    </RelativeLayout>
+</RelativeLayout>

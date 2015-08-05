@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C0C17"
+        >
+
+        <RelativeLayout
+            android:id="@+id/acionbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#AAAAAA">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/backbutton"
+                android:background="@drawable/backbutton"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="arial"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_height="30dp"
+                android:text="Elixir Storage"
+                android:textColor="#000"
+
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:layout_below="@+id/acionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#1C0C17"
+                >
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/iksirdeposu1"
+                    android:background="@drawable/iksirdeposu1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu2"
+                    android:id="@+id/iksirdeposu2"
+                    android:layout_alignTop="@+id/iksirdeposu1"
+                    android:layout_toRightOf="@+id/iksirdeposu1"
+                    android:layout_toEndOf="@+id/iksirdeposu1"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu3"
+                    android:id="@+id/iksirdeposu3"
+                    android:layout_alignTop="@+id/iksirdeposu2"
+                    android:layout_toRightOf="@+id/iksirdeposu2"
+                    android:layout_toEndOf="@+id/iksirdeposu2"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu4"
+                    android:id="@+id/iksirdeposu4"
+                    android:layout_alignTop="@+id/iksirdeposu3"
+                    android:layout_toRightOf="@+id/iksirdeposu3"
+                    android:layout_toEndOf="@+id/iksirdeposu3"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu5"
+                    android:id="@+id/iksirdeposu5"
+                    android:layout_alignTop="@+id/iksirdeposu4"
+                    android:layout_toRightOf="@+id/iksirdeposu4"
+                    android:layout_toEndOf="@+id/iksirdeposu4"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu6"
+                    android:id="@+id/iksirdeposu6"
+                    android:layout_alignTop="@+id/iksirdeposu5"
+                    android:layout_toRightOf="@+id/iksirdeposu5"
+                    android:layout_toEndOf="@+id/iksirdeposu5"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu7"
+                    android:id="@+id/iksirdeposu7"
+                    android:layout_alignTop="@+id/iksirdeposu6"
+                    android:layout_toRightOf="@+id/iksirdeposu6"
+                    android:layout_toEndOf="@+id/iksirdeposu6"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu8"
+                    android:id="@+id/iksirdeposu8"
+                    android:layout_alignTop="@+id/iksirdeposu7"
+                    android:layout_toRightOf="@+id/iksirdeposu7"
+                    android:layout_toEndOf="@+id/iksirdeposu7"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu9"
+                    android:id="@+id/iksirdeposu9"
+                    android:layout_alignTop="@+id/iksirdeposu8"
+                    android:layout_toRightOf="@+id/iksirdeposu8"
+                    android:layout_toEndOf="@+id/iksirdeposu8"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu10"
+                    android:id="@+id/iksirdeposu10"
+                    android:layout_alignTop="@+id/iksirdeposu9"
+                    android:layout_toRightOf="@+id/iksirdeposu9"
+                    android:layout_toEndOf="@+id/iksirdeposu9"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/iksirdeposu11"
+                    android:id="@+id/iksirdeposu11"
+                    android:layout_alignTop="@+id/iksirdeposu10"
+                    android:layout_toRightOf="@+id/iksirdeposu10"
+                    android:layout_toEndOf="@+id/iksirdeposu10"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="200dp"
+                    android:layout_alignTop="@+id/iksirdeposu11"
+                    android:layout_toRightOf="@+id/iksirdeposu11"
+                    android:layout_toEndOf="@+id/iksirdeposu6"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginStart="49dp" />
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad"
+                    android:layout_alignParentBottom="true"
+                    />
+
+
+    </RelativeLayout>
+</RelativeLayout>
